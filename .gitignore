@@ -1,0 +1,49 @@
+# --- Python 特有文件 ---
+# 字节编译文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境 (如果你用了 venv, virtualenv, conda 等)
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook 缓存
+.ipynb_checkpoints
+
+# --- PyCharm / IntelliJ IDEA 特有文件 ---
+# 整个 .idea 文件夹通常建议忽略，除非团队需要共享特定配置
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- 操作系统特有文件 ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- 日志和临时文件 ---
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# --- 敏感信息 (强烈建议忽略) ---
+# 如果你的代码里有密码、API Key，千万不要上传！
+.env
+.secrets
+config_private.py
