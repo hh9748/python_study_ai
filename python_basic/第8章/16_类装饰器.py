@@ -9,8 +9,7 @@
 #             print('你好，我要开始计算了')
 #             return func(*args, **kwargs)
 #         return wrapper
-
-# 使用@语法糖使用类装饰器
+# # 使用@语法糖使用类装饰器
 # @SayHello()
 # def add(x, y):
 #     res = x + y
@@ -18,13 +17,15 @@
 #     return res
 
 # 正常调用add函数
-# result = add(10, 20)
+# result = add(10,20)
 # print(result)
+
 
 # 使用 SayHello 去装饰 add 函数（手动装饰）
 # say = SayHello()
 # add = say(add)
-# result = add(10, 20)
+#
+# result = add(10,20)
 # print(result)
 
 # 带参数的类装饰器
@@ -44,7 +45,7 @@
 #     print(f'{x}和{y}相加的结果是{res}')
 #     return res
 #
-# result = add(10, 20)
+# result = add(10,20)
 # print(result)
 
 
@@ -70,6 +71,6 @@ def add(x, y):
     print(f'{x}和{y}相加的结果是{res}')
     return res
 
-result = add(10, 20)
+result = add(10,20)
 print(result)
 
