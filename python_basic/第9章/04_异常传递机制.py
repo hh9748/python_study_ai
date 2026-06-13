@@ -8,10 +8,10 @@ def test1():
 
 def test2():
     print('******test2开始******')
-    try:
+    try :
         test1()
-    except Exception as e:
-        print(f'程序异常：{e}')
+    except Exception as e :
+        print(f'程序异常:{e}')
     print('******test2结束******')
 
 def test3():
