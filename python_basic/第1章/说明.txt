@@ -1,4 +1,7 @@
 本章无代码，具体内容，请看笔记。
 
+官方文档
+https://docs.python.org/3/tutorial/index.html
+
 常用快捷键
 cmd+opt+L 格式化代码
